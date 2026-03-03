@@ -1,6 +1,7 @@
 name: Gemini Auto Coder
 
 on:
+  workflow_call:
   issues:
     types: [labeled]
   workflow_dispatch:
